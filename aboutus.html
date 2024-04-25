@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>buy any phone</title>
+    <!-- <style>
+        .title {color: red;}
+        div {border: 1px solid lime;}
+        li { font-size: 2rem;float:left; list-style: none; margin-right: 2em;}
+    </style> -->
+
+
+</head>
+<body>
+    <h1 class="title">About us</h1>
+    <a href="index.html">go back</a>
+    <form action="">
+        <input type="text" name="email">
+        <input type="submit">
+    </form>
+
+    <style>
+        .modal  {
+            border: 1px solid lime;
+            width: 300px;
+            height: 250px;
+        }
+        .header {
+            background: green;
+            color: white;
+        }
+    </style>
+
+    <div class="modal">
+        <div class="header">
+            <h3>Your Maximum Bid</h3>
+            <p>Please review the details below...</p>
+        </div>
+        <div class="body">
+            <p>We'll bid on our behalf...</p>
+
+            <div class="columns">
+                <div class="column">left</div>
+                <div class="column">right
+
+                    your maximum bid
+                    <?php echo $userBid; ?>
+                </div>
+                
+            </div>
+            <p class="footer">By bidding...</p>
+        </div>
+    </div>
+</body>
+</html>
